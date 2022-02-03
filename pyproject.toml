@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "betainc"
+version = "0.1.0"
+description = ""
+authors = ["catethos <cloverethos@gmail.com>"]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Cython = "^0.29.27"
+numpy = "^1.22.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "cython"]
+build-backend = "poetry.core.masonry.api"
