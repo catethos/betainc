@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "betainc"
-version = "0.1.1"
+version = "0.1.3"
 description = ""
 authors = ["catethos <cloverethos@gmail.com>"]
 build = "build.py"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8, <3.10"
 Cython = "^0.29.27"
 numpy = "^1.22.1"
 
